@@ -1,0 +1,125 @@
+@media screen and (max-width:600px){
+
+    /* navBar */
+
+    .navbar .navbar_right .navbar_right-list li:nth-child(1){
+        display:none;
+    }
+    .navbar .navbar_right .navbar_right-list li:nth-child(2){
+        display:none;
+    }
+    .navbar .navbar_right .navbar_right-list li:nth-child(3){
+        display:none;
+    }
+    .navbar .navbar_right .navbar_right-list li:nth-child(4){
+        display:none;
+    }
+    .navbar .navbar_right .navbar_right-list li:nth-child(5){
+        display:block;
+    }
+
+    /* Hero-section */
+
+    .h-section{
+        flex-direction: column;
+    }
+    .h-section .h-section_left h2{
+       text-align: center;
+       font-size: 40px;
+       width: 100%;
+    }
+    .h-section .h-section_left p{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .h-section .h-section_left button{
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+        margin: 20px auto; 
+    }
+
+    /* Company-section */
+    .c-section{
+        margin-top: 120px;
+
+    }
+    
+    .c-section .c-section_img{
+        width: 100%;
+        height: 35px;
+    }
+
+    .c-section .c-section_text{
+        font-size: 12px;
+    }
+
+    /* Branding-section */
+
+    .b-section{
+        flex-direction: column-reverse;
+    }
+    
+    .b-section .b-section_right h2{
+        text-align: center;
+        font-size: 32px;
+     }
+
+    .b-section .b-section_right p{
+         text-align: center;
+         font-size: 12px;
+    }
+    .b-section .b-section_right i.right{
+        display: none;
+    }
+    .b-section .b-section_right i.down{
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Custom-section */
+
+    .cus-section{
+        flex-direction: column;
+    }
+
+    .cus-section .cus-section_left h2{
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .cus-section .cus-section_left p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .cus-section .cus-section_left i.right{
+        display: none;
+    }
+    .cus-section .cus-section_left i.down{
+        display: block;
+        margin-top: 32px;
+        transform: translateX(50%);
+    }
+
+    /* Testimonials Section */
+
+    .tes-section{
+        
+    }
+
+    .tes-section .tes-section_above p{
+        font-size: 12px;
+    }
+    .tes-section .tes-section_above h2{
+        font-size: 32px;
+    }
+
+    .tes-section .tes-section_under img{
+        max-width: 100%;
+        float: none;
+    }
+
+
+}
+
