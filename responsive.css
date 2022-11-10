@@ -111,13 +111,38 @@
     .tes-section .tes-section_above p{
         font-size: 12px;
     }
-    .tes-section .tes-section_above h2{
+    .tes-section .tes-section_above h1{
         font-size: 32px;
     }
 
-    .tes-section .tes-section_under img{
-        max-width: 100%;
-        float: none;
+    .tes-section .tes-section_under{
+        flex-direction: column;
+    }
+
+    /* Contact Section */
+    .con-section{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .con-section .con-section_right h1{
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .con-section .con-section_right p{
+        text-align: center;
+        font-size: 16px;
+        margin-top: 32px;
+    }
+
+    .con-section .con-section_right button{
+        display: block;
+        width: 100%;
+        margin: 48px auto; 
+    }
+    .con-section .con-section_left{
+        display: none;
     }
 
 

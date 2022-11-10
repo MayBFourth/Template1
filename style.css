@@ -238,14 +238,15 @@
 .tes-section .tes-section_under{
     display: flex;
     flex-direction: row;
-    max-width: 33.33%;
+    max-width: 100%;
+    justify-content: space-evenly;
 }
 
     /* Condition Section */
 
 .con-section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 136px;
 }
 
@@ -255,24 +256,21 @@
     justify-content: space-evenly;
 }
 
-.con-section .con-section_right h2{
-    margin-top: 233px;
+.con-section .con-section_right h1{
     font-weight: 700;
     font-size: 48px;
-    height: 102.35px;
-    max-width: 436px;
-    line-height: 100%;
+    height: 102.1px;
+    max-width: 361px;
+    line-height: 48px;
 }
 
 .con-section .con-section_right p{
-    margin-top: 26px;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
-    max-width: 392px;
+    max-width: 360px;
     height: auto;
     color: #272D38;
     line-height: 27.5px;
-    margin-bottom: 46px;
 }
 
 .con-section .con-section_right button{
