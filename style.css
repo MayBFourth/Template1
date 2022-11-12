@@ -225,7 +225,7 @@
 
 }
 
-.tes-section .tes-section_above h2{
+.tes-section .tes-section_above h1{
     max-width: 435.69px;
     margin: 0 auto;
     height: 102.35px;
@@ -238,8 +238,11 @@
 .tes-section .tes-section_under{
     display: flex;
     flex-direction: row;
-    max-width: 100%;
     justify-content: space-evenly;
+}
+
+.tes-section .tes-section_under img{
+    width: 30%;
 }
 
     /* Condition Section */
@@ -288,8 +291,89 @@
     width: 100%;
 }
 
+    /* Footer */
 
 
+.footer .footer-above{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 1440px;
+    height: auto;
+    margin-top: 138.57px;
+    margin-bottom: ;
+}
 
+.footer .footer-above ul{
+    list-style-type: none;
+}
 
+.footer .footer-above .footer-above_logo h2{
+    max-width: 139.74px;
+    height: auto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+}
 
+.footer .footer-above .footer-above_logo p{
+    max-width: 189.29px;
+    height: auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.footer .footer-above .footer-above_resources h2{
+    max-width: 102.07px;
+    height: auto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.footer .footer-above .footer-above_resources p{
+    max-width: 55.77px;
+    height: auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.footer .footer-above .footer-above_company h2{
+    max-width: 85.23px;
+    height: auto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.footer .footer-above .footer-above_company p{
+    max-width: 69.37px;
+    height: auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.footer .footer-above .footer-above_socialmedia h2{
+    max-width: 123.19px;
+    height: auto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.footer .footer-above .footer-above_socialmedia p{
+    max-width: 68.68px;
+    height: auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.footer .footer-under{
+    text-align: center;
+    margin-top: 110px;
+
+}
