@@ -86,6 +86,7 @@
 
     .cus-section{
         flex-direction: column;
+        margin-top: -10px;
     }
 
     .cus-section .cus-section_left h2{
