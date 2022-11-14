@@ -78,6 +78,10 @@
         margin: 0 auto;
     }
 
+    .b-section .b-section_left img{
+        margin-top: -100px;
+    }
+
     /* Custom-section */
 
     .cus-section{
