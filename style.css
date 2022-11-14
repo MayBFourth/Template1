@@ -127,11 +127,6 @@ body{
     align-items: center;
 }
 
-.b-section .b-section_left{
-    margin-top: 136px;
-}
-
-
 .b-section .b-section_right h2{
     font-weight: 700;
     font-size: 48px;
